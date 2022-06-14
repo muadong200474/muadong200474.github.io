@@ -1,17 +1,16 @@
 const CONFIG = {
-    introTitle: 'Anh ơiiiiii!',
-    introDesc: `Em có điều này muốn hỏi anh nhớ phải trả lời 
-    thật lòng nha`,
-    btnIntro: 'Dạ anh nghe ><',
-    title: 'Anh có yêu em không zợ ._.?',
-    desc: 'Có rất nhiều cách để hạnh phúc. Nhanh nhất chính là nhìn thấy anh. ',
-    btnYes: 'Anh có yêu em <3',
-    btnNo: 'Không nha em gái :v ',
-    question:'Anh thích em ở điểm nào zợ ??',
-    btnReply: 'Gửi cho em <3',
-    reply: 'Em vừa xinh gái lại cute biết điều nữa  <33333333',
-    mess: ' Yêu Anh nhiều nhiều 😘😘',
-    messDesc: 'Nhắn tin cho Em luôn nhó Anh iu.',
-    btnAccept: 'Okiiiii lun <3',
-    messLink: 'http://fb.com' //link mess của các bạn. VD: https://m.me/nam.nodemy
-}
+  introTitle: 'Vợ ơiiiiii!',
+  introDesc: `Anh có điều này muốn hỏi, vợ nhớ phải trả lời thật lòng nhaa`,
+  btnIntro: 'Dạaaa ^0^',
+  title: 'Vợ có yêu chồng không nhòoo ._.',
+  desc: 'Có rất nhiều cách để hạnh phúc nhưng nhanh nhất chính là nhìn thấy vợ. ',
+  btnYes: 'Em có yêu chồnggg <3',
+  btnNo: 'Không nha chồng, ghét :) ',
+  question: 'Vợ yêu anh ở điểm nào zợ ??',
+  btnReply: 'Gửi cho anh <3',
+  reply: 'Anh đẹp trai này, thương em này, lại còn ngoan nữa  <33333333',
+  mess: ' Yêu Em nhiều nhiều 😘😘',
+  messDesc: 'Nhắn tin cho Anh luôn nhó Vợ iu.',
+  btnAccept: 'Okiiiii lun <3',
+  messLink: '',
+};
