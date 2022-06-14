@@ -12,5 +12,5 @@ const CONFIG = {
   mess: ' Yêu Em nhiều nhiều 😘😘',
   messDesc: 'Nhắn tin cho Anh luôn nhó Vợ iu.',
   btnAccept: 'Okiiiii lun <3',
-  messLink: '',
+  messLink: 'https://m.me/lampt.1911',
 };
