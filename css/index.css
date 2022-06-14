@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #ffc568;
+  font-size: 10px;
+}
+
+.heart {
+  -webkit-animation: 1s pulse infinite;
+  animation: 1s pulse infinite;
+  margin: auto;
+  position: relative;
+  width: 40vmax;
+}
+
+.heart:before,
+.heart:after {
+  background: #ee565a;
+  border-radius: 20vmax 20vmax 4vmax 4vmax;
+  content: "";
+  left: 20vmax;
+  height: 32vmax;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  width: 20vmax;
+}
+
+.heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.face {
+  background: #222;
+  border-radius: 0 0 10vmax 10vmax;
+  border-top: 2vmax solid #fff;
+  display: block;
+  height: 6vmax;
+  left: 14vmax;
+  position: absolute;
+  top: 16vmax;
+  width: 12vmax;
+  z-index: 5;
+}
+
+.face:before,
+.face:after {
+  background: #222;
+  border-radius: 4vmax;
+  box-shadow: 0 4vmax 0 -0.9vmax #e04e50;
+  content: "";
+  display: block;
+  height: 4vmax;
+  position: absolute;
+  bottom: 8vmax;
+  width: 4vmax;
+  z-index: 5;
+}
+
+.face:before {
+  left: -4vmax;
+}
+
+.face:after {
+  right: -4vmax;
+}
+
+h1 {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20vmax;
+  font: 700 5vmax "Amatic SC";
+  margin: 2vmax auto 4vmax;
+  padding: 1vw;
+  text-align: center;
+  width: 50vmax;
+  z-index: 5;
+}
+
+h1:after {
+  border: 1vw solid transparent;
+  border-color: transparent #fff #fff transparent;
+  box-shadow: 0.1vmax 0.1vmax #ddd;
+  content: "";
+  display: block;
+  left: 6vmax;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@-webkit-keyframes pulse {
+  80% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse {
+  80% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+ul#countdown {
+  margin: 0 auto;
+  color: #222;
+  overflow: hidden;
+  font-weight: bold;
+}
+ul#countdown li {
+  margin: 0 30px 0 15px;
+  padding: 0;
+  display: inline-block;
+  font-size: 6vw;
+  text-align: center;
+}
+ul#countdown li .label {
+  color: #adafb2;
+  font-size: 18px;
+  font-size: 1.5vw;
+}
+/* valentine btn */
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn-hover:focus {
+  outline: none;
+}
+.btn-hover.color-3 {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+/* end valentine btn */
